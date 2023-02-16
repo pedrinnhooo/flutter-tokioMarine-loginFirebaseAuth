@@ -1,0 +1,51 @@
+name: login_firebase
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5
+  firebase_core: ^2.5.0
+  firebase_auth: ^4.2.6
+  google_sign_in: ^5.4.4
+  cupertino_icons: ^1.0.2
+  webview_flutter: ^3.0.4
+  flutter_widget_from_html_core: any
+  fwfh_webview: ^0.6.2+5
+  auto_size_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - logoTokio.png
+    - logoResolve.png
+    - user.png
+    - vida.png
+    - empresa.png
+    - residencia.png
+    - auto.png
+    - moto.png
+    - acidente.png
+    - carinha.png
+    - logo.png
+    - arrowIcon.png
+    - checkIcon.png
+    - twitter.png
+    - facebook.png
+    - google.png
+
